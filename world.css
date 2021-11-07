@@ -1,0 +1,61 @@
+/* Add your own styles */
+/* Add your own styles */
+header{
+    display: flex;
+    font-size: 24px;
+    background-color: blue;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#lookup{
+  background-color: green;
+  border-radius: 10%;
+  padding: 6px;
+  width: 6%;
+  color: white;
+}
+
+#lookupC{
+  background-color: blue;
+  border-radius: 10%;
+  padding: 7px;
+  width: 7%;
+  color: white;
+}
+#result{
+display: flex;
+border-collapse: collapse;
+}
+
+#result th, #result td{
+  border: 1px solid #ddd;
+}
+
+#result th{
+  background-color: orange;
+}
+
+#result tr:nth-child(odd){
+  background-color: white;
+}
+
+#result tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body{
+  background-color: powderblue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: globe.jpg;
+}
